@@ -1,0 +1,16 @@
+auth = "plain[/etc/ocserv/ocpasswd]"
+
+try-mtu-discovery = true
+
+server-cert = /etc/ocserv/server-cert.pem
+server-key = /etc/ocserv/server-key.pem
+
+dns = 8.8.8.8
+
+# comment out all route fields
+#route = 10.10.10.0/255.255.255.0
+#route = 192.168.0.0/255.255.0.0
+#route = fef4:db8:1000:1001::/64
+#no-route = 192.168.5.0/255.255.255.0
+
+cisco-client-compat = true
